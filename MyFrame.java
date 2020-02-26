@@ -3,13 +3,6 @@ import java.awt.event.*;
 
 public class MyFrame extends JFrame implements ActionListener {
 	
-	/*menuiteを増やすときは以下の5ステップを守ること*/
-	//1.フィールドに宣言
-	//2.newでインスタンス化
-	//3.アクションリスナーを付ける
-	//4.menuにaddする
-	//5.actionPerformedメソッドに処理を追加
-	
 	private JMenuItem menuitem0_0, menuitem0_1, menuitem0_2, menuitem0_3;
 	private JMenuItem menuitem1_0, menuitem1_1, menuitem1_2;
 	private JMenuItem menuitem9_0, menuitem9_1;
