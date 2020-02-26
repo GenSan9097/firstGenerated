@@ -12,7 +12,7 @@ public class MyFrame extends JFrame implements ActionListener {
 		setTitle("MyTextEditor");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(1024, 768);
-		ImageIcon icon = new ImageIcon("C:/Users/ヤス/Desktop/java_files/MyTextEditor1_0/Tx.png");
+		ImageIcon icon = new ImageIcon("Tx.png");
 		setIconImage(icon.getImage() );
 		
 		tabbedpane = new MyTabbedPane();
